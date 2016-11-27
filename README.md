@@ -6,8 +6,8 @@ Recuperant 2 hores del #datathon #DecidimBarcelona #MetaDecidim jugant amb #sunb
 Visualització Sunburst del porcentatge de vots per districte, categoria, fon, subcategoria.
 
 1. Districte Vots totals
-..* ciutatvella	965
-santmarti	815
+..1. ciutatvella	965
+..2. santmarti	815
 gracia	712
 santsmontjuic	682
 hortaguinardo	606
