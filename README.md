@@ -8,9 +8,13 @@ Download it and view it in your preferred browser (With internet connection for 
 
 Recuperant 2 hores del #datathon #DecidimBarcelona #MetaDecidim jugant amb #sunburst y #d3js participació, propostes, districtes, etc. :)
 
-Visualització Sunburst del porcentatge de vots per districte, categoria, fon, subcategoria: index-districs.html
+Les visualitzacions 
 
-Visualització Sunburst del porcentatge de vots per ciutat, categoria, fon, subcategoria: index-city.html
+Visualització Sunburst del percentatge de vots per districte, categoria, fon, subcategoria: index-districs.html
+
+Visualització Sunburst del percentatge de vots per ciutat, categoria, fon, subcategoria: index-city.html
+
+Es un borrador, te moltes coses a fer, codificació de colors? afegir tooltips? connectar amb l'API de decidim.barcelona? Pots fer comentaris/sutgerencies aquí mateix ;) [Qüestions?](https://github.com/josepjc/d3-decidim-sunburst/issues)
 
 Captura de pantalla:
 
