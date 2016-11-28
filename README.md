@@ -4,7 +4,7 @@ Datathon decidim.barcelona #metadecidim
 
 **Just for fun :)**
 
-Download it and view it in your preferred browser (With internet connection for Libs). [Issues?](https://github.com/josepjc/d3-decidim-sunburst/issues)
+[Download it](https://github.com/josepjc/d3-decidim-sunburst/archive/master.zip) and view it in your preferred browser (With internet connection for Libs). [Issues?](https://github.com/josepjc/d3-decidim-sunburst/issues)
 
 Recuperant 2 hores del #datathon #DecidimBarcelona #MetaDecidim jugant amb #sunburst y #d3js participació, propostes, districtes, etc. :)
 
