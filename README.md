@@ -8,7 +8,7 @@ Download it and view it in your preferred browser (With internet connection for 
 
 Recuperant 2 hores del #datathon #DecidimBarcelona #MetaDecidim jugant amb #sunburst y #d3js participació, propostes, districtes, etc. :)
 
-Les visualitzacions 
+Les visualitzacions fan servir el model **Sunburst**, [+ info](http://www.datavizcatalogue.com/methods/sunburst_diagram.html)
 
 Visualització Sunburst del percentatge de vots per districte, categoria, fon, subcategoria: index-districs.html
 
