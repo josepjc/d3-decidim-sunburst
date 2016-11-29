@@ -1,36 +1,33 @@
 // Dimensions of sunburst.
-var width = 820;
+var width = 750;
 var height = 600;
 var radius = Math.min(width, height) / 2;
 
 // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 var b = {
-  w: 200, h: 30, s: 3, t: 10
+  w: 210, h: 30, s: 3, t: 10
 };
 
 // Mapping of step names to colors.
 var colors = {
-  "gracia": "#5687d1",
-  "ciutatvella": "#338271",
-  "santmarti": "#7b615c",
-  "santsmontjuic": "#de783b",
-  "hortaguinardo": "#6ab975",
-  "lescorts": "#a173d1",
-  "eixample": "#338271",
-  "santandreu": "#7b615c",
-  "sarriasantgervasi": "#de783b",
-  "noubarris": "#6ab975",
+  "Gràcia": "#5687d1",
+  "Ciutat Vella": "#338271",
+  "Sant Martí": "#7b615c",
+  "Sants Montjuïc": "#de783b",
+  "Horta Guinardó": "#6ab975",
+  "Les Corts": "#a173d1",
+  "Eixample": "#338271",
+  "Sant Andreu": "#7b615c",
+  "Sarrià Sant Gervasi": "#de783b",
+  "Nou Barris": "#6ab975",
   
-  "bonviure": "#E52100",
-  "transicioecologica": "#E16400",
-  "economiaplural": "#DDA400",
-  "bongovern": "#CFD900",
-  "justiciaglobal": "#(8CD500)",
+  "Bon viure": "#E52100",
+  "Transició ecològica": "#E16400",
+  "Economia plural": "#DDA400",
+  "Bon govern": "#CFD900",
+  "Justicia global": "#(8CD500)"
 
-  "citizen": "#000DD5",
-  "meeting": "#00E15D",
-  "official": "#CA006C",
-  "organization": "#C25C00"
+
 };
 
 // Total size of all segments; we set this later, after loading the data.
@@ -55,7 +52,7 @@ var arc = d3.svg.arc()
 
 // Use d3.text and d3.csv.parseRows so that we do not need to have a header
 // row, and can receive the csv as an array of arrays.
-d3.text("district-category-source-subcategory.csv", function(text) {
+d3.text("district-category-subcategory.csv", function(text) {
   var csv = d3.csv.parseRows(text);
   var json = buildHierarchy(csv);
   createVisualization(json);
